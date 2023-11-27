@@ -6,5 +6,9 @@ int main() {
     std::string a; // Додано простір імен std
     std::getline(std::cin, a); // Замінено std::cin.getline(a);
     std::cout << a+'3';
+    int b;
+    std::cin >> b;
+    std::cout << b + 2;
+
     return 0;
 }
