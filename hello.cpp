@@ -9,6 +9,9 @@ int main() {
     int b;
     std::cin >> b;
     std::cout << b + 2;
+    int c;
+    std::cin >> c;
+    std::cout << "New c =" << c;
 
     return 0;
 }
